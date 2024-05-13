@@ -1,0 +1,83 @@
+.content{
+  position: relative;
+
+  display:flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.background{
+  height: 100vh;
+  opacity: 0.5;
+  position: absolute;
+  left: -20%;
+}
+
+.info{
+  width: 60%;
+  margin-right: 90px;
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+input {
+  width: 70%;
+  border-radius: 25px;
+  min-width: 250px;
+  margin-right: 15px;
+  background: transparent;
+  border: 1px solid #999999;
+  font-size: 18px;
+  padding: 10px;
+  color:white;
+}
+
+button {
+  border-radius: 25px;
+  background: #2D333B;
+  border: 1px solid #999999;
+  font-size: 18px;
+  padding: 15px;
+  color: white
+}
+
+.profile{
+  display:flex;
+  margin: 40px 0;
+}
+
+.profile-img{
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 3px solid #E5E5E5;
+  margin-right: 30px;
+}
+
+.profile h3{
+  color: #999999;
+  font-size: 32px;
+  margin:0;
+
+}
+
+.profile span{
+  display: block;
+  color: #999999;
+  font-size: 18px;
+  margin:0;
+}
+
+.profile p{
+  color: #999999;
+  font-size: 18px;
+  margin:0;
+  margin-top: 18px;
+}
+
+.repositories{
+  font-size: 32px;
+  color: white;
+  margin: 12px 0;
+
+}
